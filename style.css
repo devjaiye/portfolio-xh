@@ -333,3 +333,114 @@ header.sticky{
 .layer:hover{
   background: linear-gradient(rgba(0,0,0,0.5) 0%, #191919);
 }
+
+.layer h3{
+    position: absolute;
+    width: 100%;
+    font-size: 25px;
+    font-weight: 500;
+    color: var(--bg-color);
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
+    opacity: 0;
+    transition: all .40s;
+}
+
+.layer:hover h3{
+    bottom: 52%;
+    opacity: 1;
+}
+
+.layer h5{
+    position: absolute;
+    width: 100%;
+    font-size: 17px;
+    font-weight: 500;
+    color: var(--bg-color);
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
+    opacity: 0;
+    transition: all .40s;
+}
+
+.layer:hover h5{
+    bottom: 48%;
+    opacity: 1;
+}
+
+.service-content{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 
+    minmax(400px, auto));
+    grid-gap: 2rem;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+.row{
+    background: #fff; 
+    box-shadow: 18px 0px 87px 0px rgb(10 15 70 / 7%);
+    border-radius: 12px;
+    padding: 45px 45px 45px 45px;
+    transition: ease .45s;
+    cursor: pointer;
+}
+
+.s img{
+    height: 65px;
+    width: 65px;
+    background: #f75124;
+    padding: 15px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.s.s-one img{
+    background: #baebcd;
+}
+
+.s.s-two img{
+    background: #baebcd;
+}
+
+.s.s-three img{
+    background: #baebcd;
+}
+
+.s.s-four img{
+    background: #baebcd;
+}
+
+.row h3{
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 2px;
+}
+
+.row h5{
+    font-size: 17px;
+    font-weight: 500;
+    margin-bottom: 19px;
+}
+
+.row p{
+    font-size: var(--p-font);
+    color: var(--second-color);
+    line-height: 28px;
+}
+
+.row:hover{
+    background:#191919;
+    color: #fff;
+}
+
+.cta-box{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, auto));
+    grid-gap: 2rem;
+    align-items: center;
+    margin-top: 5rem;
+    text-align: center;
+}
