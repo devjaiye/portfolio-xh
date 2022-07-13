@@ -466,5 +466,15 @@ header.sticky{
     background: #faedce;
 }
 
+.wrap h3{
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 2px;
+}
+
+.wrap p{
+    font-size: var(--p-font);
+}
+
 
 
