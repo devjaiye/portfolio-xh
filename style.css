@@ -476,5 +476,16 @@ header.sticky{
     font-size: var(--p-font);
 }
 
-
-
+.contact {
+    background: #8067f0eb;
+    width: 64%;
+    margin: 100px auto;
+    padding: 70px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 12px;
+    background-image: url(./img/intro.png);
+    background-size: cover;
+}
