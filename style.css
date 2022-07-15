@@ -607,6 +607,18 @@ header.sticky{
             min-height: 130vh;
             grid-gap: 1rem;
         }
+        .home-text{
+            padding-top: 55px;
+        }
+        .home-img{
+            text-align: center;
+        }
     }
-
+    .home-img img{
+        width: 440px;
+        height: auto; 
+    }
+    .about{
+        grid-template-columns: 1fr;
+    }
 }
