@@ -13,7 +13,7 @@ menu.onclick =() =>{
     navList.classList.toggle('active')
 }
 
-windows.onscroll = () =>{
+window.onscroll = () =>{
     menu.classList.remove('bx-x')
     navList.classList.remove('active')
 }
