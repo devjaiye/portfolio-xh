@@ -38,3 +38,4 @@ sr.reveal('.sub-service,.about,.portfolio,.service,.cta,.contact',{
     delay: 290,
     origin: 'bottom'
 })
+
