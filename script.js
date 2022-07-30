@@ -1,11 +1,11 @@
 //..sticky scroll bar 
 const header = document.querySelector("header")
-twitter = document.querySelector("bx bxl-twitter")
+//twitter = document.querySelector("bx bxl-twitter")
 
 
-twitter.addEventListener("click", function(){
-    console.log("twitter clicked")
-})
+// twitter.addEventListener("click", function(){
+//     console.log("twitter clicked")
+// })
 
 window.addEventListener("scroll", function(){
     header.classList.toggle("sticky", window.scrollY > 0)
