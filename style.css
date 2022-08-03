@@ -538,7 +538,7 @@ header.sticky{
     opacity: 0.8;
 }
 
-/* responsive css */
+
 @media(max-width: 1425px){
     header{
         padding: 16px 3%;
@@ -587,7 +587,7 @@ header.sticky{
         display:block;
         padding: 1.2rem;
         margin: 1.5rem;
-        border-radius: 2px solid var(--bg-color);
+        border-right: 2px solid var(--bg-color);
         color: var(--bg-color);
     }
     .navlist a:hover{
@@ -621,10 +621,10 @@ header.sticky{
     .about{
         grid-template-columns: 1fr;
     }
-    .about img{
-        text-align: center;
-        margin-bottom: 30px;
-    }
+    .about-img{
+		text-align: center;
+		margin-bottom: 30px;
+	}
     :root{
         --big-font: 3.4rem;
         --h2-font: 2rem;
