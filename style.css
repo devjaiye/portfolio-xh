@@ -22,6 +22,7 @@
 body{
     background: var(--bg-color);
     color: var(--text-color);
+    overflow: hidden;
 }
 
 header{
@@ -540,6 +541,9 @@ header.sticky{
 
 
 @media(max-width: 1425px){
+    body{
+        overflow: hidden;
+    }
     header{
         padding: 16px 3%;
         transition: .3s; 
@@ -567,8 +571,12 @@ header.sticky{
 }
 
 @media (max-width: 970px){
+    body{
+        overflow: hidden;
+    }
     #menu-icon{
         display: block;
+        
     }
     .home{
         min-height: 80vh;
@@ -602,6 +610,9 @@ header.sticky{
     }
 
     @media (max-width: 800px){
+        body{
+            overflow: hidden;
+        }
         .home{
             grid-template-columns: 1fr;
             min-height: 130vh;
@@ -638,5 +649,6 @@ header.sticky{
 @media(max-width: 540px){
     .contact .action form input[type="email"]{
         width: 310px;
+        overflow: hidden;
     }
 }
